@@ -97,14 +97,14 @@ function absurdBubbleSort(arr, sortCompletionHollaback) {
   }
   outerBubbleSortLoop(true);
 }
-
+// 
 // const arr = [2,5,3,6];
 // 
 // absurdBubbleSort(arr, function() {
 //   console.log(arr);
 // });
 
-adder.close();
+// adder.close();
 
 Function.prototype.myBind = function(context) {
   return () => {
@@ -133,5 +133,5 @@ const myBoundTurnOn = turnOn.myBind(lamp);
 boundTurnOn(); // should say "Turning on a lamp"
 myBoundTurnOn(); // should say "Turning on a lamp"
 
-
+adder.close();
 
